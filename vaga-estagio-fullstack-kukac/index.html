@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Meu CEP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Meu CEP</div>
+            <form class="form-container">
+                <div class="campoInput">
+                    <label>Inserir nome:</label>
+                    <input type="text" id="nome"/>
+                </div>
+                <div class="campoInput">
+                    <label>Inserir CEP:</label>
+                    <input type="number" id="cep" required/>
+                </div>
+                <div class="campoInput">
+                    <label>Inserir renda mensal:</label>
+                    <input type="number" id="renda" required/>
+                </div>
+                <div class="campoInput">
+                    <label>Inserir número de dependentes:</label>
+                    <input type="number" id="dependentes" required/>
+                </div>
+                <div class="buttonInput">
+                    <button id="botao" type="button" onclick="calcula()">Enviar</button>
+                </div>
+            </form>
+       </div>
+</body>
+<script src="./index.js"></script>
+</html>
