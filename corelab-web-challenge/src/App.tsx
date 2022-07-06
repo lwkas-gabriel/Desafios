@@ -1,9 +1,14 @@
 import { useState } from 'react'
+import { NewEntryButton } from './components/NewEntryButton'
+import { SearchBar } from './components/SearchBar'
 
 function App() {
 
   return (
-    <h1 className='text-center'>Tete</h1>
+    <div className='flex flex-col items-center gap-[34px]'>
+      <SearchBar/>
+      <NewEntryButton />
+    </div>
   )
 }
 
